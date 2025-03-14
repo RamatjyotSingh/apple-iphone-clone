@@ -11,7 +11,9 @@ import React, { useEffect, useRef } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 
 function Model(props) {
-  const { nodes, materials } = useGLTF("/models/scene.glb");
+
+  const modelPath = import.meta.env.BASE_URL + "models/scene.glb";
+  const { nodes, materials } = useGLTF(modelPath);
 
   const texture = useTexture(props.item.img);
 
@@ -258,4 +260,4 @@ function Model(props) {
 
 export default Model;
 
-useGLTF.preload("/models/scene.glb");
+useGLTF.preload(import.meta.env.BASE_URL + "models/scene.glb");
