@@ -1,12 +1,10 @@
 
-# README.md
 
-```markdown
 # 📱 Apple iPhone 15 Clone
 
 An interactive, responsive Apple iPhone 15 product page clone built with React, Three.js, GSAP animations, and Tailwind CSS.
 
-[Live Demo](#) | [JavaScript Mastery Tutorial](https://www.youtube.com/watch?v=RbxHZwFtRT4)
+[Live Demo](https://ramatjyotsingh.github.io/apple-iphone-clone/) | [JavaScript Mastery Tutorial](https://www.youtube.com/watch?v=RbxHZwFtRT4)
 
 ![Apple iPhone 15 Clone](screenshots/hero-section.png)
 
@@ -51,26 +49,28 @@ This project introduced me to many modern web development concepts including:
 ### Installation
 
 1. Clone the repository
-   ```bash
-   git clone https://github.com/RamatjyotSingh/apple-clone.git
-   cd apple-clone
-   ```
+  ```bash
+  git clone https://github.com/RamatjyotSingh/apple-clone.git
+  cd apple-clone
+  ```
 
 2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn
-   ```
+  ```bash
+  npm install
+  # or
+  yarn
+  ```
 
 3. Start the development server
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+> **Note:** For the best experience with 3D models, use Microsoft Edge or Firefox instead of Chrome. Chrome may display WebGL warnings like "Automatic fallback to software WebGL has been deprecated" and have rendering issues. If you must use Chrome, launch it with the `--enable-unsafe-swiftshader` flag to enable software rendering, though this may impact performance.
 
 ## 📝 License
 
@@ -83,5 +83,6 @@ This project is for educational purposes only. All Apple-related designs and ass
 - [Three.js](https://threejs.org) for 3D rendering capabilities
 - [GSAP](https://greensock.com/gsap/) for animation tools
 - [Tailwind CSS](https://tailwindcss.com) for styling utilities
+
 
 

@@ -9,13 +9,11 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), sentryVitePlugin({
     org: "univeristy-of-manitoba",
     project: "javascript-react"
-  }), sentryVitePlugin({
-    org: "univeristy-of-manitoba",
-    project: "javascript-react"
   })],
+
+  base: process.env.NODE_ENV === 'production' ? '/apple-iphone-clone/' : '/',
 
   build: {
     sourcemap: true
   },
-  base: '/apple-iphone-clone/'
 })
